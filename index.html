@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moodlet - Share Your Mood</title>
+  <meta name="description" content="Toggle your moods, generate a pixel-art status image, and share it on social media.">
+  <meta property="og:title" content="Moodlet - Share Your Mood">
+  <meta property="og:description" content="Toggle your moods, generate a pixel-art status image, and share it.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Moodlet</h1>
+      <p class="tagline">How are you feeling today?</p>
+    </header>
+
+    <div class="controls">
+      <input type="text" id="search-input" placeholder="Search moods..." autocomplete="off">
+      <button id="reset-btn" class="btn btn-reset">Reset All Selections</button>
+    </div>
+
+    <section id="most-used-section" class="mood-section" hidden>
+      <h2 class="section-title">Most Used</h2>
+      <div id="most-used-grid" class="mood-grid"></div>
+    </section>
+
+    <section id="all-moods-section" class="mood-section">
+      <h2 class="section-title">All Moods</h2>
+      <div id="all-moods-grid" class="mood-grid"></div>
+    </section>
+
+    <section id="custom-section" class="mood-section">
+      <h2 class="section-title">Custom</h2>
+      <div id="custom-grid" class="mood-grid"></div>
+      <div class="custom-form">
+        <input type="text" id="custom-label" placeholder="Label" autocomplete="off" maxlength="30">
+        <input type="text" id="custom-emoji" placeholder="😀" autocomplete="off" maxlength="10">
+        <button id="custom-add-btn" class="btn btn-add">+ Add</button>
+      </div>
+      <p id="custom-error" class="error-msg" hidden></p>
+    </section>
+
+    <section id="bg-section" class="mood-section">
+      <button id="bg-toggle-btn" class="btn btn-bg-toggle">Customize Background</button>
+      <div id="bg-panel" class="bg-panel" hidden>
+        <div class="bg-option-group">
+          <h3 class="bg-option-title">Preset Backgrounds</h3>
+          <div id="bg-presets" class="bg-presets"></div>
+        </div>
+        <div class="bg-option-group">
+          <h3 class="bg-option-title">Solid Color</h3>
+          <div class="bg-color-row">
+            <input type="color" id="bg-color-picker" value="#1a1a2e">
+            <button id="bg-color-apply" class="btn btn-add">Apply Color</button>
+          </div>
+        </div>
+        <div class="bg-option-group">
+          <h3 class="bg-option-title">Upload Image</h3>
+          <div class="bg-upload-row">
+            <label class="btn btn-upload" for="bg-upload-input">Choose File</label>
+            <input type="file" id="bg-upload-input" accept="image/*" hidden>
+            <span id="bg-upload-name" class="bg-upload-name">No file chosen</span>
+          </div>
+        </div>
+        <p id="bg-current" class="bg-current-label"></p>
+      </div>
+    </section>
+
+    <div id="toast" class="toast" hidden></div>
+
+    <button id="generate-btn" class="btn btn-generate">Generate Status Image</button>
+
+    <div id="preview-section" hidden>
+      <canvas id="status-canvas" width="1080" height="1080"></canvas>
+      <div class="action-buttons">
+        <button id="download-btn" class="btn btn-download">Download PNG</button>
+        <button id="share-btn" class="btn btn-share" hidden>Share</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

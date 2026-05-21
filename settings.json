@@ -1,0 +1,21 @@
+{
+  "username": "NemanjaZ",
+  "maxSelectedMoods": 8,
+  "backgrounds": [
+    "bg_001.png",
+    "bg_002.png",
+    "bg_003.png"
+  ],
+  "moods": [
+    { "key": "hungry",    "display": "Hungry",    "emoji": "🍔" },
+    { "key": "sleepy",    "display": "Sleepy",    "emoji": "😴" },
+    { "key": "happy",     "display": "Happy",     "emoji": "😊" },
+    { "key": "thirsty",   "display": "Thirsty",   "emoji": "🥤" },
+    { "key": "tired",     "display": "Tired",     "emoji": "😩" },
+    { "key": "sad",       "display": "Sad",       "emoji": "😢" },
+    { "key": "energetic", "display": "Energetic", "emoji": "⚡" },
+    { "key": "bored",     "display": "Bored",     "emoji": "🥱" },
+    { "key": "excited",   "display": "Excited",   "emoji": "🤩" },
+    { "key": "anxious",   "display": "Anxious",   "emoji": "😰" }
+  ]
+}
