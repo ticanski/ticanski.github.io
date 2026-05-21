@@ -18,7 +18,6 @@
     { "key": "hot",       "display": "Hot",       "emoji": "🔥" },
     { "key": "cold",      "display": "Cold",      "emoji": "❄️" },
     { "key": "dancy",     "display": "Dancy",     "emoji": "💃" },
-    { "key": "angry",     "display": "Angry",     "emoji": "😡" },
     { "key": "sick",      "display": "Sick",      "emoji": "🤧" },
     { "key": "relaxed",   "display": "Relaxed",   "emoji": "🧘‍♀️" },
     { "key": "excited",   "display": "Excited",   "emoji": "🤩" },
