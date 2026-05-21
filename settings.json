@@ -2,9 +2,7 @@
   "username": "Ticko",
   "maxSelectedMoods": 10,
   "backgrounds": [
-    "bg_001.png",
-    "bg_002.png",
-    "bg_003.png"
+    "bg_001.jpg"
   ],
   "moods": [
     { "key": "hungry",    "display": "Hungry",    "emoji": "🥗" },
