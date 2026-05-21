@@ -7,17 +7,17 @@
 }
 
 :root {
-  --bg: #1a1a2e;
-  --surface: #16213e;
-  --surface-light: #1f2f50;
-  --accent: #e94560;
-  --accent-glow: #ff6b81;
-  --text: #eaeaea;
-  --text-dim: #8892a4;
-  --success: #4ecca3;
-  --border: #2a3a5c;
-  --toggle-bg: #0f3460;
-  --toggle-active: #e94560;
+  --bg: #0b1a0b;
+  --surface: #0f260f;
+  --surface-light: #163016;
+  --accent: #3ad03a;
+  --accent-glow: #5aff5a;
+  --text: #d8f0d8;
+  --text-dim: #6a9a6a;
+  --success: #3ad03a;
+  --border: #1e4a1e;
+  --toggle-bg: #102810;
+  --toggle-active: #2aaa2a;
   --font-pixel: 'Press Start 2P', monospace;
 }
 
@@ -47,7 +47,7 @@ header {
 header h1 {
   font-size: 2rem;
   color: var(--accent);
-  text-shadow: 0 0 20px rgba(233, 69, 96, 0.5);
+  text-shadow: 0 0 20px rgba(58, 208, 58, 0.5);
   margin-bottom: 8px;
 }
 
@@ -167,7 +167,7 @@ header h1 {
 .mood-toggle.active {
   background: var(--toggle-active);
   border-color: var(--accent-glow);
-  box-shadow: 0 0 12px rgba(233, 69, 96, 0.4);
+  box-shadow: 0 0 12px rgba(58, 208, 58, 0.4);
   color: #fff;
 }
 
@@ -269,7 +269,7 @@ header h1 {
   z-index: 100;
   text-align: center;
   max-width: 90vw;
-  box-shadow: 0 0 20px rgba(233, 69, 96, 0.3);
+  box-shadow: 0 0 20px rgba(58, 208, 58, 0.3);
   animation: toast-in 0.3s ease;
 }
 
@@ -411,7 +411,7 @@ header h1 {
 
 .btn-generate:hover {
   background: var(--accent-glow);
-  box-shadow: 0 0 20px rgba(233, 69, 96, 0.4);
+  box-shadow: 0 0 20px rgba(58, 208, 58, 0.4);
 }
 
 .btn-generate:disabled {
@@ -456,15 +456,15 @@ header h1 {
 }
 
 .btn-share {
-  background: #6c5ce7;
-  color: #fff;
+  background: #1a6a1a;
+  color: #d8f0d8;
   padding: 12px 24px;
-  border-color: #7c6cf7;
+  border-color: #2a8a2a;
 }
 
 .btn-share:hover {
-  background: #7c6cf7;
-  box-shadow: 0 0 12px rgba(108, 92, 231, 0.4);
+  background: #2a8a2a;
+  box-shadow: 0 0 12px rgba(58, 208, 58, 0.4);
 }
 
 /* Responsive */
