@@ -1,21 +1,29 @@
 {
-  "username": "NemanjaZ",
-  "maxSelectedMoods": 8,
+  "username": "Ticko",
+  "maxSelectedMoods": 10,
   "backgrounds": [
     "bg_001.png",
     "bg_002.png",
     "bg_003.png"
   ],
   "moods": [
-    { "key": "hungry",    "display": "Hungry",    "emoji": "🍔" },
+    { "key": "hungry",    "display": "Hungry",    "emoji": "🥗" },
     { "key": "sleepy",    "display": "Sleepy",    "emoji": "😴" },
     { "key": "happy",     "display": "Happy",     "emoji": "😊" },
-    { "key": "thirsty",   "display": "Thirsty",   "emoji": "🥤" },
-    { "key": "tired",     "display": "Tired",     "emoji": "😩" },
+    { "key": "thirsty",   "display": "Thirsty",   "emoji": "💧" },
+    { "key": "tired",     "display": "Tired",     "emoji": "🪫" },
     { "key": "sad",       "display": "Sad",       "emoji": "😢" },
     { "key": "energetic", "display": "Energetic", "emoji": "⚡" },
     { "key": "bored",     "display": "Bored",     "emoji": "🥱" },
+    { "key": "hot",       "display": "Hot",       "emoji": "🔥" },
+    { "key": "cold",      "display": "Cold",      "emoji": "❄️" },
+    { "key": "dancy",     "display": "Dancy",     "emoji": "💃" },
+    { "key": "angry",     "display": "Angry",     "emoji": "😡" },
+    { "key": "sick",      "display": "Sick",      "emoji": "🤧" },
+    { "key": "relaxed",   "display": "Relaxed",   "emoji": "🧘‍♀️" },
     { "key": "excited",   "display": "Excited",   "emoji": "🤩" },
-    { "key": "anxious",   "display": "Anxious",   "emoji": "😰" }
+    { "key": "motivated", "display": "Motivated", "emoji": "🚀" },
+    { "key": "cool",      "display": "Cool",      "emoji": "😎" },
+    { "key": "artsy",     "display": "Artsy",     "emoji": "🎨" }
   ]
 }
