@@ -12,7 +12,6 @@
     "bg_008.jpg",
     "bg_009.jpg",
     "bg_010.jpg"
-
   ],
   "moods": [
     { "key": "hungry",    "display": "Hungry",    "emoji": "🥗" },
